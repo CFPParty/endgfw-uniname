@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDUI Example</title>
+  
+  <!-- 引入 MDUI 的样式表 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
+</head>
+<body>
+
+  <div class="mdui-container">
+    <h1>Hello, MDUI!</h1>
+
+    <!-- MDUI 按钮示例 -->
+    <button class="mdui-btn mdui-btn-raised">Click me</button>
+
+    <!-- MDUI 文本框示例 -->
+    <div class="mdui-textfield">
+      <label class="mdui-textfield-label">Name</label>
+      <input class="mdui-textfield-input" type="text" />
+    </div>
+  </div>
+
+  <!-- 引入 MDUI 的 JavaScript 文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
+
+  <!-- 初始化 MDUI -->
+  <script>
+    // 初始化 MDUI
+    mdui.mutation();
+  </script>
+</body>
+</html>
