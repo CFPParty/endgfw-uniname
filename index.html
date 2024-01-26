@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>拆墙运动联署网</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
+  <link rel="stylesheet" href="mdui.min.css">
 </head>
 <body>
   <header class="mdui-appbar">
     <div class="mdui-toolbar mdui-color-theme">
       <a href="#" class="mdui-typo-headline">拆墙运动联署网</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="#page1" class="mdui-btn">联署人名单</a>
-      <a href="#page2" class="mdui-btn">参与联署</a>
+      <a href="names" class="mdui-btn">联署人名单</a>
+      <a href="mailto:ldl69375976@gmail.com?subject=参与联署&body=名字（实名联署填写实名，匿名联署填写网名），是否为实名联署，居住地区（国内只写国内，国外精确到省或州级行政区）" class="mdui-btn">参与联署</a>
     </div>
   </header>
 
@@ -65,36 +65,14 @@ https://twitter.com/Ban_GFW3
   
                                                              拆墙运动成员：刘栋玲等
 </pre>
-
-    <!-- 页面1 -->
-    <div id="page1" class="mdui-hidden">
-      <h1>Page 1 Content</h1>
-      <!-- 你的页面1的其他内容 -->
-    </div>
-
-    <!-- 页面2 -->
-    <div id="page2" class="mdui-hidden">
-      <h1>Page 2 Content</h1>
-      <!-- 你的页面2的其他内容 -->
-    </div>
-
+</div>
+<footer class="mdui-color-theme">
+  <div class="mdui-container">
+    <a href="https://github.com/CFPParty/endgfw-uniname"><p>本站已开源到Github<p></a>
+    <p>&copy; 2024 拆墙运动联署网. All rights reserved.</p>
   </div>
+</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
-  <script>
-    // 初始化 MDUI
-    mdui.mutation();
-
-    // 处理导航栏链接点击事件
-    document.getElementById('page1-link').addEventListener('click', function () {
-      document.getElementById('page1').classList.remove('mdui-hidden');
-      document.getElementById('page2').classList.add('mdui-hidden');
-    });
-
-    document.getElementById('page2-link').addEventListener('click', function () {
-      document.getElementById('page1').classList.add('mdui-hidden');
-      document.getElementById('page2').classList.remove('mdui-hidden');
-    });
-  </script>
+  <script src="mdui.min.js"></script>
 </body>
 </html>
